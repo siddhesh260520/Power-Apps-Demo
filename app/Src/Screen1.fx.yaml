@@ -1,0 +1,26 @@
+Screen1 As screen:
+    OnVisible: =
+
+    Button1 As button:
+        OnSelect: |-
+            =UpdateContext({txtName: "Hello"});
+        Text: ="Set"
+        X: =142
+        Y: =232
+        ZIndex: =2
+
+    TextInput2 As text:
+        Default: =txtName
+        Reset: =true
+        X: =142
+        Y: =98
+        ZIndex: =3
+
+    Button2 As button:
+        OnSelect: |-
+            =UpdateContext({txtName: "Hi"});
+        Text: ="Reset"
+        X: =336
+        Y: =232
+        ZIndex: =4
+

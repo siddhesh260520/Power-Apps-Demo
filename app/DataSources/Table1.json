@@ -1,0 +1,18 @@
+[
+  {
+    "Data": "[]",
+    "IsSampleData": false,
+    "IsWritable": false,
+    "Name": "Table1",
+    "OrderedColumnNames": [
+      "Name",
+      "Department",
+      "Salary"
+    ],
+    "OriginalName": "Table1",
+    "OriginalSchema": "*[Department:s, Name:s, Salary:s]",
+    "Schema": "*[Department:s, Name:s, Salary:s]",
+    "Token": "dummyToken",
+    "Type": "StaticDataSourceInfo"
+  }
+]
